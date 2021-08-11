@@ -11,6 +11,9 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+#cardGroup{
+    background-color: darksalmon;
+}
 
 
 img {
@@ -25,8 +28,6 @@ img {
       font-family: fantasy;
   }
   
-  .footer-header {
-  }
   
   footer-bdy {
       opacity: 0.6;
@@ -36,4 +37,29 @@ img {
       margin: 2rem;
   }
   
+  #porque {
+      font-family: Lucida Handwriting;
+      background-color: rgb(192, 236, 247);
+      margin-bottom: 5px;
+  }
+  
+ #cardGroup {
+    border: 5px solid #fd2a5f;
+  }
+  
+  #cardImg {
+    padding: 5px;
+  }
+
+  #cardTitle {
+    padding: 0px;
+    height: 15mm;
+    background-color: pink;
+    justify-content: center;
+  }
+ #cardBody {
+     border: 10px solid rgb(192, 236, 247);
+     margin: 2px;
+     padding: 5px;
+ }
   
