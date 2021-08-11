@@ -4,7 +4,7 @@ import Cards from "./cards.jsx";
 //include images into your bundle
 
 //create your first component
-export function Home() {
+function Home() {
 	return (
 		<>
 			<Cards />
@@ -12,3 +12,5 @@ export function Home() {
 		</>
 	);
 }
+
+export default Home;
